@@ -36,7 +36,7 @@ export default function Sidebar() {
       <li className="nav-item active">
         <a className="nav-link" href="index.html">
           <i className="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span>
+          <span>Trang chủ</span>
         </a>
       </li>
 
@@ -44,20 +44,50 @@ export default function Sidebar() {
       <hr className="sidebar-divider" />
 
       {/* <!-- Heading --> */}
-      <div className="sidebar-heading">Interface</div>
+      <div className="sidebar-heading">Quản lý</div>
 
       {/* <!-- Nav Item - Pages Collapse Menu --> */}
       <li className="nav-item">
         <a
           className="nav-link collapsed"
-          href="/"
+          href="/#"
           data-toggle="collapse"
           data-target="#collapseTwo"
           aria-expanded="true"
           aria-controls="collapseTwo"
         >
           <i className="fas fa-fw fa-cog"></i>
-          <span>Components</span>
+          <span>Hợp đồng</span>
+        </a>
+        <div
+          id="collapseTwo"
+          className="collapse"
+          aria-labelledby="headingTwo"
+          data-parent="#accordionSidebar"
+        >
+          <div className="bg-white py-2 collapse-inner rounded">
+            <h6 className="collapse-header">Custom Components:</h6>
+            <a className="collapse-item" href="buttons.html">
+              Buttons
+            </a>
+            <a className="collapse-item" href="cards.html">
+              Cards
+            </a>
+          </div>
+        </div>
+      </li>
+
+      <li className="nav-item">
+        <a
+          className="nav-link collapsed"
+          href="/#"
+          data-toggle="collapse"
+          data-target="#collapseTwo"
+          aria-expanded="true"
+          aria-controls="collapseTwo"
+        >
+          <i className="fas fa-fw fa-cog"></i>
+          <span>Báo cáo</span>
         </a>
         <div
           id="collapseTwo"
@@ -88,7 +118,7 @@ export default function Sidebar() {
           aria-controls="collapseUtilities"
         >
           <i className="fas fa-fw fa-wrench"></i>
-          <span>Utilities</span>
+          <span>Tiến độ</span>
         </a>
         <div
           id="collapseUtilities"
@@ -113,14 +143,6 @@ export default function Sidebar() {
           </div>
         </div>
       </li>
-
-      {/* <!-- Divider --> */}
-      <hr className="sidebar-divider" />
-
-      {/* <!-- Heading --> */}
-      <div className="sidebar-heading">Addons</div>
-
-      {/* <!-- Nav Item - Pages Collapse Menu --> */}
       <li className="nav-item">
         <a
           className="nav-link collapsed"
@@ -131,7 +153,7 @@ export default function Sidebar() {
           aria-controls="collapsePages"
         >
           <i className="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
+          <span>Thống kê</span>
         </a>
         <div
           id="collapsePages"
@@ -166,7 +188,7 @@ export default function Sidebar() {
       <li className="nav-item">
         <a className="nav-link" href="charts.html">
           <i className="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span>
+          <span>Chấm công</span>
         </a>
       </li>
 
@@ -174,9 +196,95 @@ export default function Sidebar() {
       <li className="nav-item">
         <a className="nav-link" href="tables.html">
           <i className="fas fa-fw fa-table"></i>
-          <span>Tables</span>
+          <span>Kế toán</span>
         </a>
       </li>
+      {/* <!-- Divider --> */}
+      <hr className="sidebar-divider" />
+
+      {/* <!-- Heading --> */}
+      <div className="sidebar-heading">Hệ thống</div>
+      <li className="nav-item">
+        <a
+          className="nav-link collapsed"
+          href="/"
+          data-toggle="collapse"
+          data-target="#collapsePages"
+          aria-expanded="true"
+          aria-controls="collapsePages"
+        >
+          <i className="fas fa-fw fa-folder"></i>
+          <span>Danh mục</span>
+        </a>
+        <div
+          id="collapsePages"
+          className="collapse"
+          aria-labelledby="headingPages"
+          data-parent="#accordionSidebar"
+        >
+          <div className="bg-white py-2 collapse-inner rounded">
+            <h6 className="collapse-header">Login Screens:</h6>
+            <a className="collapse-item" href="login.html">
+              Login
+            </a>
+            <a className="collapse-item" href="register.html">
+              Register
+            </a>
+            <a className="collapse-item" href="forgot-password.html">
+              Forgot Password
+            </a>
+            <div className="collapse-divider"></div>
+            <h6 className="collapse-header">Other Pages:</h6>
+            <a className="collapse-item" href="404.html">
+              404 Page
+            </a>
+            <a className="collapse-item" href="blank.html">
+              Blank Page
+            </a>
+          </div>
+        </div>
+      </li>
+      <li className="nav-item">
+        <a
+          className="nav-link collapsed"
+          href="/"
+          data-toggle="collapse"
+          data-target="#collapsePages"
+          aria-expanded="true"
+          aria-controls="collapsePages"
+        >
+          <i className="fas fa-fw fa-folder"></i>
+          <span>Hệ thống</span>
+        </a>
+        <div
+          id="collapsePages"
+          className="collapse"
+          aria-labelledby="headingPages"
+          data-parent="#accordionSidebar"
+        >
+          <div className="bg-white py-2 collapse-inner rounded">
+            <h6 className="collapse-header">Login Screens:</h6>
+            <a className="collapse-item" href="login.html">
+              Login
+            </a>
+            <a className="collapse-item" href="register.html">
+              Register
+            </a>
+            <a className="collapse-item" href="forgot-password.html">
+              Forgot Password
+            </a>
+            <div className="collapse-divider"></div>
+            <h6 className="collapse-header">Other Pages:</h6>
+            <a className="collapse-item" href="404.html">
+              404 Page
+            </a>
+            <a className="collapse-item" href="blank.html">
+              Blank Page
+            </a>
+          </div>
+        </div>
+      </li>
+      {/* <!-- Nav Item - Pages Collapse Menu --> */}
 
       {/* <!-- Divider --> */}
       <hr className="sidebar-divider d-none d-md-block" />

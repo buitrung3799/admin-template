@@ -1,7 +1,11 @@
-import './'
+import GlobalStyles from "./scss";
 import MainContent from "./container";
 function App() {
-  return <MainContent />;
+  return (
+    <GlobalStyles>
+      <MainContent />
+    </GlobalStyles>
+  );
 }
 
 export default App;
