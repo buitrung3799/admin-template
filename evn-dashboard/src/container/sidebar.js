@@ -4,7 +4,7 @@ export default function Sidebar() {
   return (
     // <!-- Sidebar -->
     <ul
-      className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+      className="navbar-nav bg-color-primary sidebar sidebar-dark accordion"
       id="accordionSidebar"
     >
       {/* <!-- Sidebar - Brand --> */}

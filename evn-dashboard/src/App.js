@@ -1,4 +1,4 @@
-import "./App.css";
+import './'
 import MainContent from "./container";
 function App() {
   return <MainContent />;
